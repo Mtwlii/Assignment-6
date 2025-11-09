@@ -544,3 +544,59 @@ button[bg] {
     background-color: var(--primary-color);
 
 }
+
+
+.sec-3 {
+    background-color: #0b0e13;
+    padding-top: 150px;
+}
+
+.head-sec-3 {
+    text-align: center;
+
+}
+
+.head-sec-3 p:first-child {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+.head-sec-3 p:first-child:after {
+    content: '';
+    display: flex;
+    align-self: center;
+    height: 3px;
+    width: 80px;
+    background:
+        linear-gradient(to right, #cafe1c, #000) border-box;
+    margin-left: 10px;
+}
+
+.head-sec-3 p:first-child::before {
+    content: '';
+    display: flex;
+    align-self: center;
+    height: 3px;
+    width: 80px;
+    background:
+        linear-gradient(to left, #cafe1c, #000) border-box;
+    margin-right: 10px;
+}
+
+.head-sec-3 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.head-sec-3 p:last-child {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+.head-sec-3 p:last-child span {
+    color: var(--primary-color);
+}
